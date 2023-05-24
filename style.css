@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
 body{
     animation:transition 0.75s;
 }
@@ -17,7 +32,7 @@ body{
 .carousel-item img {
     filter: brightness(60%); /* Sesuaikan tingkat kegelapan yang diinginkan */
   }
-  .slideshow-caption {
+.slideshow-caption {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -117,6 +132,7 @@ body{
     .two-column-list{
         font-size: 18px;
         margin-left: 0px;
+        list-style: none;
         column-count: 1;
     }
     .m img{
@@ -130,12 +146,8 @@ body{
         margin-left: 5px;
     }
     .pengantar{
-        font-size:20px;
         width: 95%;
         margin-left: 5px;
-    }
-    .subjudul{
-        font-size:30px;
     }
 }
 @keyframes transition{
@@ -147,4 +159,15 @@ body{
         opacity: 1;
         transform: rotateX(0);
     }
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
 }
