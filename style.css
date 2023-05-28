@@ -134,8 +134,9 @@ body{
 }
 
 .p1{
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Roboto Slab', serif;
+    text-align: center;
 }
 .list{
     margin-left: 5px;
