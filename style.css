@@ -108,7 +108,7 @@ body{
     height: 130px;
 }
 .m{
-    display: flex; flex-direction: row; margin-left: 50px;
+    display: flex; flex-direction: row;    m margin-left: 50px;
 }
 .reveal{
     position: relative;
@@ -143,7 +143,7 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 .list2{
-    font-size: 12px;
+    font-size: 18px;
     text-align: center;
 }
 .penjelasan2{
