@@ -141,7 +141,10 @@ body{
 .list{
     margin-left: 5px;
     font-family: 'Rubik', sans-serif;
-    width: 70%;
+}
+.list2{
+    font-size: 12px;
+    text-align: center;
 }
 .penjelasan2{
     font-family: 'Noto Sans', sans-serif;
