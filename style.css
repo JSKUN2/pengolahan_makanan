@@ -162,9 +162,9 @@ li{
         margin-left: 10px;
     }
     .penjelasan{
-        font-size: 18px;
+        font-size: 20px;
         margin-left: 0;
-        width: 85%;
+        width: 90%;
     }
     .kandungan{
         margin-left:0px;
@@ -200,9 +200,6 @@ li{
     }
     .pengawetan li .p1{
         font-size: 16px;
-    }
-    .penjelasan2{
-        font-size: 15px;
     }
 }
 @keyframes transition{
