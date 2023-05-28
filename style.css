@@ -29,9 +29,6 @@ body{
     width: 100%;
     height: 100vh;
 }
-.carousel-item img {
-    filter: brightness(60%); /* Sesuaikan tingkat kegelapan yang diinginkan */
-  }
 .slideshow-caption {
     position: absolute;
     top: 50%;
