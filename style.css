@@ -145,6 +145,8 @@ body{
 .list2{
     font-size: 18px;
     text-align: center;
+    margin-left:50%;
+    margin-right:50%;
 }
 .penjelasan2{
     font-family: 'Noto Sans', sans-serif;
