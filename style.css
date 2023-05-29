@@ -208,6 +208,9 @@ li{
     .fisik img{
         width: 85%
     }
+    .slideshow-caption{
+        width:90%;
+    }
 }
 @keyframes transition{
     from{
